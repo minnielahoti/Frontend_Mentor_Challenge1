@@ -5,41 +5,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Four card feature section</title>
 
+  <title>Frontend Mentor | Four card feature section</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+
   </style>
 </head>
 <body>
-  
+  <p class = 'top'>
   Reliable, efficient delivery
+  </p>
+
+  <p class = 'middle'>
   Powered by Technology
+  </p>
 
-  Our Artificial Intelligence powered tools use millions of project data points 
+  <p class = 'bottom'>
+  Our Artificial Intelligence powered tools use millions of project data points
   to ensure that your project is successful
+ </p>
 
-  Supervisor
-  Monitors activity to identify project roadblocks
+<div class = 'all-boxes'>
 
-  Team Builder
-  Scans our talent network to create the optimal team for your project
+  <div class = 'team-builder'>
+    <p class = 'heading'> Team Builder </p>
+    <p class = 'text'>   Scans our talent network to create the optimal team for your project </p>
+    <img class = 'image' src="images/icon-team-builder.svg" alt="team-builder-icon">
+  </div>
 
-  Karma
-  Regularly evaluates our talent to ensure quality
+  <div class = 'karma'>
+    <p class = 'heading'> Karma </p>
+    <p class = 'text'> Regularly evaluates our talent to ensure quality </p>
+    <img class = 'image' src="images/icon-karma.svg" alt="karma-icon">
+  </div>
 
-  Calculator
-  Uses data from past projects to provide better delivery estimates
+</div>
 
-  
+<div class = 'overthetop'>
+  <div class = 'supervisor'>
+    <p class = 'heading'> Supervisor </p>
+    <p class = 'text'> Monitors activity to identify project roadblocks </p>
+    <img class = 'image' src="images/icon-supervisor.svg" alt="supervisor-icon">
+  </div>
+
+  <div class = 'calculator'>
+    <p class = 'heading'> Calculator </p>
+    <p class = 'text'> Uses data from past projects to provide better delivery estimates </p>
+    <img class = 'image' src="images/icon-calculator.svg" alt="calculator-icon">
+  </div>
+</div>
+
   <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
+
   </footer>
 </body>
 </html>
