@@ -30,19 +30,7 @@ body {
   margin: 0;
 }
 
-.supervisor {
-  display: inline-block;
-  width: 350px;
-  height: 250px;
-  background-color: white;
-  margin: 0 auto;
-  border-radius: 8px;
-  box-shadow: 0 14px 25px -10px #abbccc;
-  border-top: 4px solid  #35d9d8;
-  position: absolute;
-  left: 19.5%;
-  top: 55%;
-}
+
 
 .heading {
   font-size: 20px;
@@ -68,34 +56,46 @@ body {
 }
 
 .team-builder {
-  display: block;
-  width: 350px;
-  height: 250px;
-  background-color: white;
-  margin: 0 auto;
-  border-radius: 8px;
-  box-shadow: 0 14px 25px -10px #abbccc;
-  border-top: 4px solid  #ff4b4a;
-  margin-bottom: 2%;
-
-}
-
-.calculator {
   display: inline-block;
   width: 350px;
   height: 250px;
   background-color: white;
-  margin: 0 2%;
+  border-radius: 8px;
+  box-shadow: 0 14px 25px -10px #abbccc;
+  border-top: 4px solid  #ff4b4a;
+  position: absolute;
+  left: 50%;
+  margin-left: -175px;
+}
+
+.supervisor {
+  display: block;
+  width: 350px;
+  height: 250px;
+  background-color: white;
+  margin-left: 160px;
+  margin-top: 10%;
+  border-radius: 8px;
+  box-shadow: 0 14px 25px -10px #abbccc;
+  border-top: 4px solid  #35d9d8;
+  position: absolute;
+}
+
+.calculator {
+  display: block;
+  width: 350px;
+  height: 250px;
+  background-color: white;
+  margin: 10% 930px;
   border-radius: 8px;
   box-shadow: 0 14px 25px -10px #abbccc;
   border-top: 4px solid  #47a1ff;
   position: absolute;
-  right: 17.5%;
-  top: 55%;
+
 }
 
 .karma {
-  display: block;
+  display: inline-block;
   width: 350px;
   height: 250px;
   background-color: white;
@@ -103,9 +103,14 @@ body {
   border-radius: 8px;
   box-shadow: 0 14px 25px -10px #abbccc;
   border-top: 4px solid  #ffac3d;
-
+  position: absolute;
+  top: 290px;
+  left: 50%;
+  margin-left: -175px;
 }
-.karma:hover {
+.all-boxes {
+  background-color: grey;
+  position: relative;
 
 }
 
