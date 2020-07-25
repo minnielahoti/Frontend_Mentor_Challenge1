@@ -16,7 +16,7 @@
 .bottom {
   display: block;
   margin: 0 auto 60px auto;
-  width: 28%;
+  width: 32%;
   font-size: 15px;
   font-weight: 300;
   margin-top: 0;
@@ -73,7 +73,7 @@ body {
   width: 350px;
   height: 250px;
   background-color: white;
-  margin-left: 160px;
+  margin-left: 10rem;
   margin-top: 10%;
   border-radius: 8px;
   box-shadow: 0 14px 25px -10px #abbccc;
@@ -86,7 +86,7 @@ body {
   width: 350px;
   height: 250px;
   background-color: white;
-  margin: 10% 930px;
+  margin: 10% 58.125rem;
   border-radius: 8px;
   box-shadow: 0 14px 25px -10px #abbccc;
   border-top: 4px solid  #47a1ff;
